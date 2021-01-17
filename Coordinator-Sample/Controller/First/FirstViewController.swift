@@ -11,7 +11,7 @@ final class FirstViewController: UIViewController {
         self.navigationItem.title = "First"
     }
     
-    @IBAction func next(_ sender: UIButton) {
+    @IBAction private func next(_ sender: UIButton) {
         secondCoordinator = SecondCoordinator(firstVC: self)
         secondCoordinator?.start()
     }

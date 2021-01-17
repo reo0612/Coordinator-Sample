@@ -4,7 +4,7 @@ import UIKit
 //SecondCoordinatorはFirst -> Secondの画面遷移を担当するクラス
 final class SecondCoordinator: Coordinator {
     
-    var firstVC: FirstViewController?
+    private var firstVC: FirstViewController?
     
     init(firstVC: FirstViewController) {
         self.firstVC = firstVC
