@@ -15,5 +15,4 @@ final class FirstViewController: UIViewController {
         secondCoordinator = SecondCoordinator(firstVC: self)
         secondCoordinator?.start()
     }
-    
 }

@@ -25,5 +25,4 @@ final class AppCoordinator: Coordinator {
         //ここではnavFirstVCを表示
         window.makeKeyAndVisible()
     }
-
 }
