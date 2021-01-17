@@ -12,6 +12,6 @@ final class SecondCoordinator: Coordinator {
     
     func start() {
         let secondVC = UIStoryboard(name: StoryboardName.second.rawValue, bundle: nil).instantiateInitialViewController() as! SecondViewController
-        self.firstVC?.present(secondVC, animated: true, completion: nil)
+        firstVC?.navigationController?.pushViewController(secondVC, animated: true)
     }
 }
