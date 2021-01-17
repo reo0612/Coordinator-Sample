@@ -1,9 +1,3 @@
-//
-//  StoryboardName.swift
-//  Coordinator-Sample
-//
-//  Created by 今西玲巳 on 2020/12/04.
-//
 
 import Foundation
 

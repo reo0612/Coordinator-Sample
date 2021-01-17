@@ -1,9 +1,3 @@
-//
-//  Coordinator_SampleTests.swift
-//  Coordinator-SampleTests
-//
-//  Created by 今西玲巳 on 2020/12/03.
-//
 
 import XCTest
 @testable import Coordinator_Sample
